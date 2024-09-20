@@ -1,0 +1,22 @@
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+
+body { background-image: url("../img/logo-back.jpg"); color: white;}
+
+.navbar { background-color: #1D0225; border-bottom: 1px solid #E5BD34;}
+nav ul li {padding-left: 20px;}
+nav ul li a {color: white; font-family: 'ZCOOL XiaoWei', Arial, sans-serif;}
+nav ul li a:hover {color: grey;}
+nav ul li .login-btn{background-color: #E5BD34; color: black; font-size: 18px;}
+nav ul li:nth-child(6) {padding-right: 30px;}
+
+form {border: 2px solid #E5BD34;; padding: 50px; margin:0px 30%; padding-top: 20px; margin-top: 40px;}
+.checkout-table {text-align: center; width: 100%; padding: 30px;}
+
+.PayOptions {padding-top: 20px;}
+.submit-button {background-color: #E5BD34; color: black; font-size: 18px; border: none; font-family: 'ZCOOL XiaoWei', Arial, sans-serif; border-radius: 5px;}
+.submit-button:hover { cursor: pointer; background-color: #F5D371; border: none;}

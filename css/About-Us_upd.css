@@ -1,0 +1,48 @@
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+
+.div-padding{padding: 20px 0;}
+.headings {color:black; font-family: 'ZCOOL XiaoWei', serif; font-weight: bold; padding-top: 20px;}
+
+.hr1 { height: 12px; border: 0; box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); margin: 20px 400px;}
+
+.navbar { background-color: #1D0225; border-bottom: 1px solid #E5BD34;}
+nav ul li {padding-left: 20px;}
+nav ul li a {color: white; font-family: 'ZCOOL XiaoWei', Arial, sans-serif;}
+nav ul li a:hover {color: grey;}
+nav ul li .login-btn{background-color: #E5BD34; color: black; font-size: 18px;}
+nav ul li:nth-child(6) {padding-right: 30px;}
+
+footer {background-color: #1D0225; color: white; position: relative; bottom: 0; width: 100%;}
+footer .hrfooter  {border: 0; height: 1px; background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));}
+footer h5 {color: #E5BD34;}
+.footer-left a {font-size: 25px; padding: 0px 5px;}
+.fa-facebook-f {color: #3b5998;}
+.fa-twitter {color:#00aced;}
+.fa-youtube {color: #bb0000;}
+.fa-google-plus-g {color:#dd4b39;}
+.fa-instagram {color: #517fa4;}
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-google-plus-g:hover, .fa-instagram:hover {color: #d5d5d5;}
+footer .copyright {padding-top: 10px;}
+
+.modal {text-align: center;}
+.loginbutton{background-color: #350340; color:white; font-size: 18px;border-radius:5px;font-size: 20px; padding: 2px 25px;}
+.loginbutton:hover {cursor: pointer;}
+.buttoncenter{padding-top: 30px; }
+.prenumber{border: 1px solid #A9A9A9; padding: 3px; padding-bottom: 4px; background-color: white; color: #000000;}
+.passwordlength {padding-right: 36px;}
+.modal-content { width: 100%; background-color: #E5BD34; }
+.modal-header {background-color: #E5BD34; text-align: center; border-bottom: none;}
+.modal-title {font-family: 'Beyond', sans-serif; font-size: 30px; color: black;}
+.modal-body {background-color: #1D0225; color: #E5BD34; border-bottom: none;}
+.modal-footer {border-top: none;}
+.modal-footer a {text-decoration: none; color: #1D0225;}
+.modalBodyHeadings {color:white; font-family: 'ZCOOL XiaoWei', serif; font-size: 20px;}
+.localityInput {padding: 0 18px;}
+.localitydatalist {margin: 0; padding: 0; position: absolute; left :0; right: 0;}
+.stateinput {padding: 2px 54px;}
+.cityinput{padding: 2px 58px;}
